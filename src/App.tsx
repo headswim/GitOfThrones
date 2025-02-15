@@ -81,13 +81,24 @@ function App() {
   return (
     <div className="min-h-screen bg-[#1a1d24] text-gray-100">
       <div className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex items-center gap-4 mb-6">
-          <img 
-            src="/logo.svg"
-            alt="Git of Thrones"
-            className="h-12"
-          />
-          <h1 className="text-2xl font-bold text-[#c0a062]">Git of Thrones</h1>
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-4">
+            <img 
+              src="/logo.svg"
+              alt="Git of Thrones"
+              className="h-12"
+            />
+            <h1 className="text-2xl font-bold text-[#c0a062]">Git of Thrones</h1>
+          </div>
+          <a
+            href="https://github.com/headswim/GitOfThrones"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 bg-[#2a2e37] hover:bg-[#3a3e47] rounded-lg transition-colors text-[#c0a062] hover:text-[#d4b475]"
+          >
+            <Github className="w-5 h-5" />
+            <span className="hidden sm:inline">View on GitHub</span>
+          </a>
         </div>
 
         <div className="bg-[#2a2e37] p-6 rounded-lg mb-8 border border-[#3a3e47]">
