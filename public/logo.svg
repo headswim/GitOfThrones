@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1a1d24"/>
+  <g transform="translate(200, 100)">
+    <!-- Throne back -->
+    <path d="M200,50 L350,50 L400,400 L150,400 Z" fill="#2a2e37"/>
+    <!-- Grid pattern representing contribution squares -->
+    <g transform="translate(225, 150)">
+      <rect width="150" height="150" fill="none" stroke="#c0a062" stroke-width="4"/>
+      <g id="grid">
+        <rect x="10" y="10" width="20" height="20" fill="#34d399"/>
+        <rect x="40" y="10" width="20" height="20" fill="#10b981"/>
+        <rect x="70" y="10" width="20" height="20" fill="#047857"/>
+        <rect x="100" y="10" width="20" height="20" fill="#064e3b"/>
+        <rect x="10" y="40" width="20" height="20" fill="#10b981"/>
+        <rect x="40" y="40" width="20" height="20" fill="#34d399"/>
+        <rect x="70" y="40" width="20" height="20" fill="#10b981"/>
+        <rect x="100" y="40" width="20" height="20" fill="#047857"/>
+      </g>
+      <use href="#grid" y="60"/>
+    </g>
+    <!-- Crown -->
+    <path d="M150,30 L450,30 L400,80 L200,80 Z" fill="#c0a062"/>
+    <g fill="#c0a062">
+      <path d="M170,10 L190,30 L150,30 Z"/>
+      <path d="M250,10 L270,30 L230,30 Z"/>
+      <path d="M330,10 L350,30 L310,30 Z"/>
+      <path d="M410,10 L430,30 L390,30 Z"/>
+    </g>
+  </g>
+</svg>
